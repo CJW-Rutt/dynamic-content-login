@@ -1,36 +1,23 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+#**Super Fun Counter App Readme**
+## Find out all about this super cool counting app.
 
-## Getting Started
+### From the Author
+> This app is the most fun you'll ever have with numbers
 
-First, run the development server:
+## Languages
+* HTML + CSS
+* Javascript
+* Next.JS
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## Function
+The app uses useSearchParams to get the username from the input to log into the counter app.[^1]
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The counter app uses useRouter hook to pass user data to the counter page.[^1]
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+The counter page shows the username using useSearchParams.[^1]
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Buttons are coded to increase or decrement the number in the field.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+# HAVE FUN WITH NUMBERS!
+### made by RUTT co.
