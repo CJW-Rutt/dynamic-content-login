@@ -50,6 +50,12 @@
     letter-spacing: 2px;
 }
 
+.counter_increase:hover {
+    background-color: white;
+    border: 2px solid #49585A;
+    color: #49585A;
+}
+
 .counter_decrease {
     width: 150px;
     margin: 10px 10px 10px 10px;
@@ -60,5 +66,11 @@
     font-size: 18px;
     font-weight: 600;
     letter-spacing: 2px;
+}
+
+.counter_decrease:hover {
+    background-color: white;
+    border: 2px solid #49585A;
+    color: #49585A;
 }
 

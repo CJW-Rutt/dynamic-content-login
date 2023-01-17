@@ -21,8 +21,8 @@ export default function Counter() {
                 <div className={styles.sub_title}>Welcome {isUser}, have fun with numbers!</div>
                 <div className={styles.counter_number}>{number}</div>
                 <div className={styles.button_container}>
-                    <button className={styles.counter_increase} onClick={() => setNumber( number + 1 )}>Increment</button>
                     <button className={styles.counter_decrease} onClick={() => setNumber( number - 1 )}>Decrement</button>
+                    <button className={styles.counter_increase} onClick={() => setNumber( number + 1 )}>Increment</button>  
                 </div>
             </div>
         </main>
